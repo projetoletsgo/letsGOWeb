@@ -1,0 +1,27 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/********** HEADER **********/
+.bg-header {
+	background-color: #003e72;
+}
+.header {
+	max-width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+	color: #4189b5;
+}
+.header .right {
+	float: right;
+	width: 50%;
+}
+
+.header .left {
+	float: left;
+	width: 50%;
+}
+/********** FOOTER **********/

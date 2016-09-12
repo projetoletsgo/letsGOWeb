@@ -1,11 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-	    <title>@ViewBag.Title</title>
+	    <title>Lets GO - @ViewBag.Title</title>
+		<link rel="stylesheet" href="~/Content/css/styles.css">
 	</head>
 	<body>
 		@Html.Partial("~/Views/Shared/_Header.cshtml")
-		@RenderBody()
+		<div id="content">
+			@RenderBody()
+		</div>
 		@Html.Partial("~/Views/Shared/_Footer.cshtml")
 	</body>
 </html>
