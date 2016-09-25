@@ -1,26 +1,11 @@
 ﻿@{
     Layout = null;
 }
-<div class="bg-header">
-	<div class="header">
-		<div class="left">
-			<img src="~/Content/images/logo.png">
-		</div>
-		<div class="right">
-			<form name="formLogin">
-				<div class="row input-field col">
-		        	<input id="email" type="email" class="validate">
-		        	<label for="email">Email</label>
-		        </div>
-
-				<div class="row input-field col">
-          			<input id="email" type="email" class="validate">
-          			<label for="email">Email</label>
-        		</div>
-				
-				<button type="submit">Ok</button>
-			</form>
-		</div>
-	</div>
-</div>
-
+<header class="bg-header navbar-fixed">
+    <nav class="blue darken-4">
+		@Html.Partial("~/Views/Shared/_Menu.cshtml")
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img class="logo" src="~/Content/images/logo.png"></a>
+        </div>
+    </nav>
+</header>

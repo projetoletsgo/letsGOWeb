@@ -104,6 +104,35 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Content\css\styles.css" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Scripts\materialize\css\materialize.css" />
+    <Content Include="Scripts\materialize\css\materialize.min.css" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Bold.eot" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Bold.ttf" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Bold.woff" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Light.eot" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Light.ttf" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Medium.eot" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Medium.ttf" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Regular.eot" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Regular.ttf" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Thin.eot" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Thin.ttf" />
+    <Content Include="Scripts\materialize\fonts\roboto\Roboto-Thin.woff" />
+    <Content Include="Scripts\materialize\js\materialize.js" />
+    <Content Include="Scripts\materialize\js\materialize.min.js" />
+    <Content Include="Views\Shared\_Menu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\materialize\LICENSE" />
+    <None Include="Scripts\materialize\README.md" />
+    <None Include="Scripts\materialize\fonts\roboto\Roboto-Bold.woff2" />
+    <None Include="Scripts\materialize\fonts\roboto\Roboto-Light.woff2" />
+    <None Include="Scripts\materialize\fonts\roboto\Roboto-Medium.woff2" />
+    <None Include="Scripts\materialize\fonts\roboto\Roboto-Regular.woff2" />
+    <None Include="Scripts\materialize\fonts\roboto\Roboto-Thin.woff2" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

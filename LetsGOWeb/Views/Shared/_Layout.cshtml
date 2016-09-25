@@ -1,21 +1,39 @@
-﻿<!DOCTYPE html>
+﻿<!-- example: http://blog.codeply.com/2015/04/09/5-material-design-examples-using-materializecss/-->
+<!DOCTYPE html>
 <html>
 	<head>
-	    <title>Lets GO - @ViewBag.Title</title>
-		<!-- Compiled and minified CSS -->
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Lets GO - @ViewBag.Title</title>
+		<!--Import Google Icon Font-->
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+	
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="~/Scripts/materialize/css/materialize.css">
 
-		<!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-		
+		<!-- Website css -->
 		<link rel="stylesheet" href="~/Content/css/styles.css">
-	</head>
-	<body>
-		@Html.Partial("~/Views/Shared/_Header.cshtml")
-		<div id="content">
-			@RenderBody()
-		</div>
-		@Html.Partial("~/Views/Shared/_Footer.cshtml")
-	</body>
-</html>
 
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+
+    <body>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="~/Scripts/materialize/js/materialize.min.js"></script>
+
+		@Html.Partial("~/Views/Shared/_Header.cshtml")
+		<main>
+			@RenderBody()
+		</main>
+		@Html.Partial("~/Views/Shared/_Footer.cshtml")
+		<script>
+			$(".button-collapse").sideNav();
+			$('.modal-trigger').leanModal();
+			$('#aside').pushpin({ top:110, bottom:500 });
+			</script>
+    </body>
+  </html>
+
+			
