@@ -81,6 +81,12 @@
     <Folder Include="Scripts\" />
     <Folder Include="Content\css\" />
     <Folder Include="Content\images\" />
+    <Folder Include="Views\Sobre\" />
+    <Folder Include="Views\Cadastro\" />
+    <Folder Include="Views\CadastrarExcursao\" />
+    <Folder Include="Views\Contato\" />
+    <Folder Include="Views\MinhasViagens\" />
+    <Folder Include="Views\DetalhesDaViagem\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -90,6 +96,12 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\SobreController.cs" />
+    <Compile Include="Controllers\CadastroController.cs" />
+    <Compile Include="Controllers\CadastrarExcursaoController.cs" />
+    <Compile Include="Controllers\ContatoController.cs" />
+    <Compile Include="Controllers\MinhasViagensController.cs" />
+    <Compile Include="Controllers\DetalhesDaViagemController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -124,6 +136,12 @@
     <Content Include="Scripts\materialize\js\materialize.js" />
     <Content Include="Scripts\materialize\js\materialize.min.js" />
     <Content Include="Views\Shared\_Menu.cshtml" />
+    <Content Include="Views\Sobre\Index.cshtml" />
+    <Content Include="Views\Cadastro\Index.cshtml" />
+    <Content Include="Views\CadastrarExcursao\Index.cshtml" />
+    <Content Include="Views\Contato\Index.cshtml" />
+    <Content Include="Views\MinhasViagens\Index.cshtml" />
+    <Content Include="Views\DetalhesDaViagem\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\materialize\LICENSE" />
