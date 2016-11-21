@@ -88,11 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\CadastrarExcursao\" />
-    <Folder Include="Views\Cadastro\" />
-    <Folder Include="Views\Contato\" />
-    <Folder Include="Views\DetalhesDaViagem\" />
-    <Folder Include="Views\MinhasViagens\" />
     <Folder Include="Views\Sobre\" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +147,11 @@
     <None Include="Scripts\materialize\fonts\roboto\Roboto-Medium.woff2" />
     <None Include="Scripts\materialize\fonts\roboto\Roboto-Regular.woff2" />
     <None Include="Scripts\materialize\fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="Views\CadastrarExcursao\Index.cshtml" />
+    <Content Include="Views\Cadastro\Index.cshtml" />
+    <Content Include="Views\Contato\Index.cshtml" />
+    <Content Include="Views\DetalhesDaViagem\Index.cshtml" />
+    <Content Include="Views\MinhasViagens\Index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
